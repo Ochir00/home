@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body {
+    background-color: rgb(50, 50, 50);
+}
+header {
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    /* background-color: wheat; */
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+#Addtask {
+    background-color: green;
+    width: 100px;
+    height: 50px;
+    font-size: 17px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    position: absolute;
+    right: 0;
+}
+#Addtask:hover {
+    background-color: red;
+}

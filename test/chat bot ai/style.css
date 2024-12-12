@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(70, 70, 70);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#buttondev {
+    margin-top: 100px;
+    background-color: rgb(60, 60, 60);
+    width: 50%;
+    /* height: 300px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+    border-radius: 30px;
+    box-shadow: 10%;
+}
+#button {
+    width: 150px;
+    height: 80px;
+    border: none;
+    border-radius: 23px ;
+    background-color: rgb(0, 173, 0);
+    color: white;
+    font-size: 30px;
+    margin-top: 40px;
+}
+.div {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(60, 60, 60);
+    display: flex;
+    justify-content: center;
+}
+#newbutton {
+    width: 150px;
+    height: 80px;
+    border: none;
+    border-radius: 23px ;
+    background-color: rgb(0, 173, 0);
+    margin: auto;
+}
